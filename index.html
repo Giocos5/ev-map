@@ -754,7 +754,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(223,26,15,1.0)',
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_Ev_Chargers_Light_3857_7');
@@ -762,7 +762,7 @@
         map.getPane('pane_Ev_Chargers_Light_3857_7').style['mix-blend-mode'] = 'normal';
         var layer_Ev_Chargers_Light_3857_7 = new L.geoJson(json_Ev_Chargers_Light_3857_7, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Ev_Chargers_Light_3857_7',
             layerName: 'layer_Ev_Chargers_Light_3857_7',
             pane: 'pane_Ev_Chargers_Light_3857_7',
@@ -1041,7 +1041,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(228,243,14,1.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_DC_24r_Public_3857_8');
@@ -1049,7 +1049,7 @@
         map.getPane('pane_DC_24r_Public_3857_8').style['mix-blend-mode'] = 'normal';
         var layer_DC_24r_Public_3857_8 = new L.geoJson(json_DC_24r_Public_3857_8, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_DC_24r_Public_3857_8',
             layerName: 'layer_DC_24r_Public_3857_8',
             pane: 'pane_DC_24r_Public_3857_8',
@@ -1279,7 +1279,7 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td class="visible-with-data" id="fid" colspan="2"><strong>fid</strong><br />' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">original_full_address</th>\
@@ -1308,7 +1308,7 @@
         function style_MichCulvers_3857_11_0() {
             return {
                 pane: 'pane_MichCulvers_3857_11',
-                radius: 4.0,
+                radius: 5.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
