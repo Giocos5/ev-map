@@ -195,3 +195,32 @@
             justify-content: center;
             align-items: center;
         }
+        .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+            display: none;
+        }
+        .css_Mich_Counties_3 {
+            text-shadow: -2px -2px 0 #fafafa,
+                -2px -1px 0 #fafafa,
+                -2px 0px 0 #fafafa,
+                -2px 1px 0 #fafafa,
+                -2px 2px 0 #fafafa,
+                -1px -2px 0 #fafafa,
+                -1px -1px 0 #fafafa,
+                -1px 0px 0 #fafafa,
+                -1px 1px 0 #fafafa,
+                -1px 2px 0 #fafafa,
+                0px -2px 0 #fafafa,
+                0px -1px 0 #fafafa,
+                0px 1px 0 #fafafa,
+                0px 2px 0 #fafafa,
+                1px -2px 0 #fafafa,
+                1px -1px 0 #fafafa,
+                1px 0px 0 #fafafa,
+                1px 1px 0 #fafafa,
+                1px 2px 0 #fafafa,
+                2px -2px 0 #fafafa,
+                2px -1px 0 #fafafa,
+                2px 0px 0 #fafafa,
+                2px 1px 0 #fafafa,
+                2px 2px 0 #fafafa;
+        }
